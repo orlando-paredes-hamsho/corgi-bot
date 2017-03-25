@@ -5,7 +5,9 @@ module.exports = {
     'AllAboutCorgis',
     'allaboutcorgis',
     'welshcorgi',
-    'welsh corgi'
+    'welsh corgi',
+    'aboutcorgis',
+    'AboutCorgis'
   ],
   queryStringSubQuery: [
     ' pembroke',
