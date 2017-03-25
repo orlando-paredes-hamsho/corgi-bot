@@ -1,0 +1,29 @@
+{
+  "name": "corgi-bot",
+  "version": "1.0.0",
+  "description": "Twitter Bot for corgi things at @AboutCorgis, made with twitter bot bootstrap",
+  "author": "orlando paredes hamsho",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.5",
+    "unique-random-array": "^1.0.0",
+    "unirest": "^0.5.1",
+    "snyk": "^1.25.1"
+  },
+  "snyk": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:orlando-paredes-hamsho/corgi-bot.git"
+  }
+}
